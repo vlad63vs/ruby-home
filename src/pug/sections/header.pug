@@ -1,0 +1,40 @@
+.container
+	header.header 
+		.header__logo
+			img(src="./img/logos/header-logo.png", alt="Logo")
+		ul.header__nav
+			li.header__nav-item 
+				a(href="#").header__nav-link.active Home 
+			li.header__nav-item 
+				a(href="#").header__nav-link Properties  
+			li.header__nav-item 
+				a(href="#").header__nav-link About us 
+			li.header__nav-item 
+				a(href="#").header__nav-link Blog 
+			.header__button
+				button.button Contact us
+	.header__main
+		.header__main-about 
+			h1.header__main-title Find the perfect place to stay with your family
+			.header__main-desc 
+				p.header__main-text Buying a home is a life-changing experience, so shouldn’t your real estate agent be a life changer.
+			.header__main-select 
+				.header__main-options 
+					h3.active Buy 
+					h3 Rent
+					h3 Sell
+				.header__main-range 
+					.header__main-location 
+						p.property-location Location
+						h4.property-name Dhaka
+					.header__main-location.space 
+						p.property-location Property type
+						h4.property-name Duplex
+					.header__main-location.space 
+						p.property-location Price
+						h4.property-name $4000-$8000
+					.header__main-search
+						img(src="./img/header/search.svg", alt="Search")
+						button.button__search Search
+		.header__main-img 
+			img(src="./img/header/header-img.jpg", alt="Building")

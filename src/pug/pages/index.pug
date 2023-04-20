@@ -1,0 +1,161 @@
+extends ./../layouts/main.pug
+
+block variables
+	- const title = "Главная";
+
+block content
+	include ./../sections/header.pug
+
+	.container
+		.partners
+			h2.partners__title Our Partners
+				.partners__title-home
+					img(src="./img/properties/home-sign.png", alt="Home-sign")
+			.partners__brands
+				img(src="./img/brands/biotech.png", alt="Biotech")
+				img(src="./img/brands/express.png", alt="Express")
+				img(src="./img/brands/smilehome.png", alt="Smilehome")
+				img(src="./img/brands/connect.png", alt="Connect")
+				img(src="./img/brands/homebuild.png", alt="Homebuild")
+		.properties 
+			.own-properties 
+				h2.popular-properties Popular Properties
+					.popular-properties-home 
+						img(src="./img/properties/home-sign.png", alt="Home-sign")
+				button.own-properties__button VIEW ALL
+				//- h3.view-properties VIEW ALL
+
+			.cards__properties
+			
+				.card__item 
+					.card__img 
+						img(src="./img/images/img01.jpg", alt="Img01")
+					.card__item-description
+						.card__title-heart 
+							.card__title Capital hill residence
+							img(src="./img/hearts/heart-red.svg", alt="Red heart")
+						.card__location
+							img(src="./img/properties/location.svg", alt="Location")
+							p.city East London
+						.card__services 
+							img(src="./img/properties/bed.svg", alt="Bed") 
+							span 6
+							img(src="./img/properties/spoon.svg", alt="Spoon")
+							span 2
+							img(src="./img/properties/sink.svg", alt="Sink")
+							span 3
+						.card__prices 
+							.price $5527.00
+							+button-view-details('View Details') 
+				.card__item 
+					.card__img 
+						img(src="./img/images/img02.jpg", alt="Img01")
+					.card__item-description
+						.card__title-heart 
+							.card__title Picket Fence Realty
+							img(src="./img/hearts/heart-grey.svg", alt="Red heart")
+						.card__location
+							img(src="./img/properties/location.svg", alt="Location")
+							p.city East London
+						.card__services 
+							img(src="./img/properties/bed.svg", alt="Bed") 
+							span 6
+							img(src="./img/properties/spoon.svg", alt="Spoon")
+							span 2
+							img(src="./img/properties/sink.svg", alt="Sink")
+							span 3
+						.card__prices 
+							.price $6727.00
+							+button-view-details('View Details') 
+				.card__item 
+					.card__img 
+						img(src="./img/images/img03.jpg", alt="Img01")
+					.card__item-description
+						.card__title-heart 
+							.card__title Banyon Tree Realty
+							img(src="./img/hearts/heart-red.svg", alt="Red heart")
+						.card__location
+							img(src="./img/properties/location.svg", alt="Location")
+							p.city East London
+						.card__services 
+							img(src="./img/properties/bed.svg", alt="Bed") 
+							span 6
+							img(src="./img/properties/spoon.svg", alt="Spoon")
+							span 2
+							img(src="./img/properties/sink.svg", alt="Sink")
+							span 3
+						.card__prices 
+							.price $4327.00
+							+button-view-details('View Details') 
+
+				.card__item 
+					.card__img 
+						img(src="./img/images/img04.jpg", alt="Img01")
+					.card__item-description
+						.card__title-heart 
+							.card__title Corsair Real Estate
+							img(src="./img/hearts/heart-grey.svg", alt="Red heart")
+						.card__location
+							img(src="./img/properties/location.svg", alt="Location")
+							p.city East London
+						.card__services 
+							img(src="./img/properties/bed.svg", alt="Bed") 
+							span 6
+							img(src="./img/properties/spoon.svg", alt="Spoon")
+							span 2
+							img(src="./img/properties/sink.svg", alt="Sink")
+							span 3
+						.card__prices 
+							.price $4427.00
+							+button-view-details('View Details') 
+				.card__item 
+					.card__img 
+						img(src="./img/images/img05.jpg", alt="Img01")
+					.card__item-description
+						.card__title-heart 
+							.card__title Sequoia Real Estate
+							img(src="./img/hearts/heart-red.svg", alt="Red heart")
+						.card__location
+							img(src="./img/properties/location.svg", alt="Location")
+							p.city East London
+						.card__services 
+							img(src="./img/properties/bed.svg", alt="Bed") 
+							span 6
+							img(src="./img/properties/spoon.svg", alt="Spoon")
+							span 2
+							img(src="./img/properties/sink.svg", alt="Sink")
+							span 3
+						.card__prices 
+							.price $4527.00
+							+button-view-details('View Details') 
+				.card__item 
+					.card__img 
+						img(src="./img/images/img06.jpg", alt="Img01")
+					.card__item-description
+						.card__title-heart 
+							.card__title Strive Partners Realty
+							img(src="./img/hearts/heart-grey.svg", alt="Red heart")
+						.card__location
+							img(src="./img/properties/location.svg", alt="Location")
+							p.city East London
+						.card__services 
+							img(src="./img/properties/bed.svg", alt="Bed") 
+							span 6
+							img(src="./img/properties/spoon.svg", alt="Spoon")
+							span 2
+							img(src="./img/properties/sink.svg", alt="Sink")
+							span 3
+						.card__prices 
+							.price $5527.00
+							+button-view-details('View Details') 
+	.features
+		.container
+			.features__property
+				.features__title 
+					h2 Property Featured
+					img(src="./img/properties/home-sign.png", alt="Home-sign")
+				.features__subtitle
+					p Real estate is a crowded field. But with the number of buyers purchasing homes through real estate agents and brokers growing there’s plenty of 
+			.features__content 
+				+features__left('security.svg', '100% Security')
+					p For many of us, buying a home is a dre and one not easily attainable. 

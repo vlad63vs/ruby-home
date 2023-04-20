@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'proxima';
+	src: url('../fonts/proxima-regular.woff2') format('woff2');
+}
+
+// Base
+
+
+// Blocks
+@import './blocks/base';
+@import './blocks/header';
+@import './blocks/header-main';
+@import './blocks/partners';
+@import './blocks/features';
+

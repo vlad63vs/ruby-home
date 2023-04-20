@@ -1,0 +1,157 @@
+.partners {
+	margin-top: 100px;
+	margin-bottom: 140px;
+}
+
+.partners__title {
+	position: relative;
+	margin: 0;
+	margin-bottom: 66px;
+	text-align: center;
+	font-size: 44px;
+	font-weight: 600;
+	line-height: 1;
+	color: #030A1B;
+}
+
+.partners__title-home img {
+	position: absolute;
+	left: 388px;
+	top: -14px;
+	margin-left: 40px;
+}
+
+.partners__brands {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+// Properties
+.own-properties {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 70px;
+}
+
+.popular-properties {
+	position: relative;
+	margin: 0;
+	font-size: 44px;
+	font-weight: 600;
+	line-height: 1;
+	color: #030A1B;
+}
+
+.popular-properties-home img {
+	position: absolute;
+	left: -13px;
+	top: -14px;
+}
+
+.own-properties__button {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1;
+	color: #FE753F;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+// Cards Properties
+.cards__properties  {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 30px;
+	row-gap: 30px;
+	margin-bottom: 140px;
+}
+.card__item {
+	width: 362px;
+	background: #FFFFFF;
+	box-shadow: 0px 8px 70px rgba(0, 0, 0, 0.07);
+	border-radius: 10px;
+}
+
+.card__item-description {
+	display: flex;
+	flex-direction: column;
+	margin: 30px 30px 30px;
+}
+.card__title-heart {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.card__title {
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 33px;
+	color: #030A1B;
+}
+
+.card__location {
+	display: flex;
+}
+
+.card__location img {
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.city {
+	margin: 0;
+	font-size: 16px;
+	color: #030A1B;
+	opacity: 0.7;
+}
+
+.card__services {
+	display: flex;
+	margin-bottom: 26px;
+}
+
+.card__services img {
+	margin-right: 5px;
+}
+.card__services span {
+	margin-right: 20px;
+	font-size: 14px;
+	color: #030A1B;
+	opacity: 0.9;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+.card__prices {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.price {
+	font-weight: 600;
+	font-size: 22px;
+	color: #FE753F;
+}
+.card__button {
+	font-weight: 500;
+	font-size: 16px;
+	height: 44px;
+	line-height: 44px;
+	color: #FFFFFF;
+	background-color: #2E6EFF;
+	border-radius: 5px;
+	border: none;
+	padding: 0 20px;
+	transition: background-color .2s ease-in;
+	cursor: pointer;
+
+	&:hover {
+		background-color: #0a48d9;
+	}
+}
